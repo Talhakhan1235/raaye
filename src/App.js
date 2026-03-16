@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {
- Menu, X, Calendar, MessageSquare,
+ Menu, X, Calendar,
  BrainCircuit, UserCheck, ArrowRight, CheckCircle2,
- TrendingUp, Clock, Star, Layout, Edit3, Smartphone, BarChart3, Award, ChevronDown
+ TrendingUp, Star, Layout, Edit3, Smartphone, BarChart3, Award, ChevronDown
 } from 'lucide-react';
 
 
@@ -669,12 +669,12 @@ const App = () => {
          </div>
         
          <div className="flex flex-wrap justify-center gap-6 text-sm font-medium text-slate-600">
-           <a href="#" className="hover:text-blue-600 transition-colors">Product</a>
-           <a href="#" className="hover:text-blue-600 transition-colors">Pricing</a>
-           <a href="#" className="hover:text-blue-600 transition-colors">Wall of Love</a>
-           <a href="#" className="hover:text-blue-600 transition-colors">LinkedIn Profile Roaster</a>
-           <a href="#" className="hover:text-blue-600 transition-colors">Privacy Policy</a>
-           <a href="#" className="hover:text-blue-600 transition-colors">Terms of Service</a>
+           <a href="/" className="hover:text-blue-600 transition-colors">Product</a>
+           <a href="/" className="hover:text-blue-600 transition-colors">Pricing</a>
+           <a href="/" className="hover:text-blue-600 transition-colors">Wall of Love</a>
+           <a href="/" className="hover:text-blue-600 transition-colors">LinkedIn Profile Roaster</a>
+           <a href="/" className="hover:text-blue-600 transition-colors">Privacy Policy</a>
+           <a href="/" className="hover:text-blue-600 transition-colors">Terms of Service</a>
          </div>
         
          <p className="text-sm text-slate-500">
